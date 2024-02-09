@@ -8,6 +8,10 @@ struct samples_info latest_samples_info;
 
 int nrf_fstorage_init(void)
 {
+
+
+
+   
     int rc = 0;
 
     fs.flash_device = NVS_PARTITION_DEVICE;

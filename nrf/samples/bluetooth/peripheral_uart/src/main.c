@@ -7,6 +7,10 @@
  *  Author : THEJA
  */
 
+
+
+
+
 #include "uart_async_adapter.h"
 #include <zephyr/types.h>
 #include <zephyr/kernel.h>
