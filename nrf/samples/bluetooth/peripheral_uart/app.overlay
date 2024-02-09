@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) 2022 Nordic Semiconductor ASA
+ *
+ * SPDX-License-Identifier: LicenseRef-Nordic-5-Clause
+ */
+
+/ {
+	chosen {
+		nordic,nus-uart = &uart0;
+	};
+};
+
+&nrf_radio_fem {
+    // spi-if = <&nrf_radio_fem>;
+    pdn-gpios = <&gpio0 10 GPIO_ACTIVE_HIGH>;     
+	mode-gpios = <&gpio0 2 GPIO_ACTIVE_LOW>;     
+	tx-en-gpios = <&gpio0 4 GPIO_ACTIVE_HIGH>;    
+	rx-en-gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;    
+};
+

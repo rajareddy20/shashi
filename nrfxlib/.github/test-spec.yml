@@ -1,0 +1,132 @@
+# This is the Jenkins ci variant of the .github/labler.yaml
+"CI-iot-zephyr-lwm2m-test":
+  - "nrf_modem/**/*"
+  - "nrf_security/src/**/*"
+  - "crypto/nrf_oberon/**/*"
+
+"CI-iot-samples-test":
+  - "nrf_modem/**/*"
+
+"CI-iot-libraries-test":
+  - "nrf_modem/**/*"
+
+"CI-lwm2m-test":
+  - "nrf_modem/**/*"
+
+"CI-tfm-test":
+  - "crypto/**/*"
+  - "nrf_security/**/*"
+
+"CI-ble-test":
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+
+"CI-mesh-test":
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+
+"CI-zigbee-test":
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+  - "nrf_802154/driver/**/*"
+  - "nrf_802154/serialization/**/*"
+  - "nrf_802154/sl/**/*"
+  - any:
+    - "zboss/**/*"
+    - "!zboss/*.rst"
+    - "!zboss/doc/**/*"
+
+"CI-desktop-test":
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+
+"CI-crypto-test":
+  - "crypto/**/*"
+  - "nrf_security/**/*"
+
+"CI-rs-test":
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "nrf_802154/**/*"
+
+"CI-fem-test":
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "nrf_802154/**/*"
+
+"CI-homekit-test":
+  - "crypto/**/*"
+  - "openthread/**/*"
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+  - "nfc/**/*"
+  - "nrf_802154/driver/**/*"
+  - "nrf_802154/serialization/**/*"
+  - "nrf_802154/sl/**/*"
+  - "nrf_security/**/*"
+
+"CI-thread-test":
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+  - "nrf_802154/driver/**/*"
+  - "nrf_802154/serialization/**/*"
+  - "nrf_802154/sl/**/*"
+  - "crypto/**/*"
+  - any:
+    - "openthread/**/*"
+    - "!openthread/*.rst"
+    - "!openthread/doc/**/*"
+
+"CI-nfc-test":
+  - "nfc/**/*"
+
+"CI-matter-test":
+  - "crypto/**/*"
+  - "openthread/**/*"
+  - "softdevice_controller/include/**/*"
+  - "softdevice_controller/lib/**/*"
+  - "mpsl/include/**/*"
+  - "mpsl/lib/**/*"
+  - "nfc/**/*"
+  - "nrf_802154/driver/**/*"
+  - "nrf_802154/serialization/**/*"
+  - "nrf_802154/sl/**/*"
+  - "nrf_security/**/*"
+
+"CI-find-my-test":
+  - "crypto/**/*"
+  - "nfc/**/*"
+  - "nrf_security/**/*"
+  - "softdevice_controller/**/*"
+
+"CI-gazell-test":
+  - "gzll/**/*"
+
+"CI-rpc-test":
+  - "nrf_rpc/**/*"
+
+"CI-modemshell-test":
+  - "nrf_modem/**/*"
+
+"CI-positioning-test":
+  - "nrf_modem/**/*"
+
+"CI-cloud-test":
+  - "nrf_modem/**/*"
+  - "nrf_security/**/*"
+  - "crypto/**/*"
+  - "nrf_rpc/**/*"
